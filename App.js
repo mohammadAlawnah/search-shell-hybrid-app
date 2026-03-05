@@ -6,7 +6,7 @@ export default function App() {
     <SafeAreaView style={{flex:1}}>
       <WebView
         source={{ uri: "https://www.google.com" }}
-        style={{width:"100%",height:"100%"}}
+        style={{flex:1}}
       />
     </SafeAreaView>
   );
